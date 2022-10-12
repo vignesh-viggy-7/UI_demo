@@ -1,0 +1,37 @@
+.header{
+    background-color:rgb(216, 191, 108);
+    border-style:groove;
+    margin-top:12px;
+    margin-bottom:12px;
+    border-color:crimson;
+}
+.card{
+    width:14rem;
+    height:20rem;
+    margin-top:12px;
+    overflow-inline:auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color:whitesmoke;
+    border-radius:1rem;
+}
+.container{
+    width:100%;
+    gap:3.5rem;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-family:Segoe UI;
+    color: black;
+    
+}
+.card:hover{
+  box-shadow: 0 6px 10px 0 rgba(251, 248, 248, 0.2);
+  background-color:rgb(59, 58, 58);
+  color: rgb(194, 207, 218);
+  transition:0.75s
+  
+}
+.img2{ 
+    margin-top:7rem;
+    margin-bottom:3rem;
+}
